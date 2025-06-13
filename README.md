@@ -27,7 +27,8 @@ Check if installation was successful
 python3 -c "import tensorrt"
 ```
 Install PyCUDA
-```pip3 install pycuda
+```
+pip3 install pycuda
 ```
 
 #### 4. Setup your ROS2 workspace and build the x_mobility_navigator package
