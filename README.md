@@ -7,7 +7,7 @@
 git clone https://github.com/NVlabs/X-MOBILITY 
 ```
 
-#### 2. Replace the following files in the X-MOBILITY directory
+#### 2. Replace the following files in the X-MOBILITY directory. The files from my repository have been edited to work with COMPASS, following the instructions given [here](https://github.com/NVlabs/X-MOBILITY/pull/14/commits/d25bebf066a71e49b401c0fb7d60f7f26b324bb6). I also changed the ROS2 topic names in `x_mobility_navigator.py` to be compatible with the Joey. 
 Download `x_mobility_navigator.launch.py` from this repo. Use it to replace the `X-MOBILITY/ros2_deployment/x_mobility_navigator/launch/x_mobility_navigator.launch.py` file. 
 
 Download `x_mobility_navigator.py` from this repo. Use it to replace the `X-MOBILITY/ros2_deployment/x_mobility_navigator/x_mobility_navigator/x_mobility_navigator.py` file. 
