@@ -1,4 +1,4 @@
-# compassInference
+# COMPASS Inference
 
 ## Quick Setup on the Joey
 
