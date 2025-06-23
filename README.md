@@ -62,4 +62,4 @@ ros2 launch x_mobility_navigator x_mobility_navigator.launch.py
 ```
 
 #### 7. Generating the ONNX file and TensorRT engine
-If needed, generate the required ONNX file using the instructions [here](https://github.com/NVlabs/COMPASS?tab=readme-ov-file#model-export). The TRT file can be generated from the ONNX file using the instructions [here](https://github.com/NVlabs/X-MOBILITY/blob/main/ros2_deployment/README.md#step-5---build-the-tensorrt-engine)
+If needed, generate the required ONNX file using the instructions [here](https://github.com/NVlabs/COMPASS?tab=readme-ov-file#model-export). The TRT file can be generated from the ONNX file using the instructions [here](https://github.com/NVlabs/X-MOBILITY/blob/main/ros2_deployment/README.md#step-5---build-the-tensorrt-engine).
