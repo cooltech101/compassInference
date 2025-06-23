@@ -52,14 +52,14 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 
-#### 5. Download the `compassGeneralistJoey.trt` file [here](https://drive.google.com/file/d/1PwcrBSycGQe3gUwkXYYPnmfPeqgOxEii/view?usp=sharing) and copy it to `/tmp/compass.engine`.
+#### 5. Download the `compassGeneralistJoey.trt` TensorRT engine [here](https://drive.google.com/file/d/1PwcrBSycGQe3gUwkXYYPnmfPeqgOxEii/view?usp=sharing) and copy it to `/tmp/compass.engine`.
 
-This trt file is the TensorRT engine generated from the COMPASS generalist policy. Camera resolution is 1920x1080 to match the image resolution of the D435i. 
+This trt file is the TensorRT engine generated from a COMPASS generalist policy ONNX file. Camera resolution is 1920x1080 to match the image resolution of the D435i. 
 
 #### 6. Launch COMPASS inference using the prebuilt TensorRT engine
 ```
 ros2 launch x_mobility_navigator x_mobility_navigator.launch.py
 ```
 
-#### 7. Re-generating the ONNX and TRT files
-If needed, regenerate the ONNX file using the instructions found in 
+#### 7. Generating the ONNX file and TensorRT engine
+If needed, generate the required ONNX file using the instructions [here](https://github.com/NVlabs/COMPASS?tab=readme-ov-file#model-export). The TRT file can be generated from the ONNX file using the instructions [here](https://github.com/NVlabs/COMPASS?tab=readme-ov-file#model-export)
