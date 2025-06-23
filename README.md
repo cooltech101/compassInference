@@ -1,4 +1,5 @@
 # COMPASS Inference
+This repository provides quick setup instructions for deploying COMPASS for inference. While the original [COMPASS repository](https://github.com/NVlabs/COMPASS) does not provide any guide for inference deploymnet, COMPASS is very similar to X-Mobility. Therefore, X-Mobility resources will be used as the backbone for COMPASS deployment.  
 
 ## Quick Setup on the Joey
 
@@ -59,3 +60,6 @@ This trt file is the TensorRT engine generated from the COMPASS generalist polic
 ```
 ros2 launch x_mobility_navigator x_mobility_navigator.launch.py
 ```
+
+#### 7. Re-generating the ONNX and TRT files
+If needed, regenerate the ONNX file using the instructions found in 
