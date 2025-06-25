@@ -52,7 +52,7 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 
-#### 5. Download the `compassGeneralistJoey.trt` TensorRT engine [here](https://drive.google.com/file/d/1PwcrBSycGQe3gUwkXYYPnmfPeqgOxEii/view?usp=sharing) and copy it to `/tmp/compass.engine`.
+#### 5. Download the `compassGeneralistJoey.trt` TensorRT engine [here](https://drive.google.com/file/d/1PwcrBSycGQe3gUwkXYYPnmfPeqgOxEii/view?usp=sharing) and copy it to `/tmp/compass.engine`. By default, `x_mobility_navigator.launch.py` will look for the TensorRT engine at this temporary file location. 
 
 This trt file is the TensorRT engine generated from a COMPASS generalist policy ONNX file. Camera resolution is 1920x1080 to match the image resolution of the D435i. 
 
