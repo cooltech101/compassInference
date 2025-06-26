@@ -65,6 +65,6 @@ ros2 launch x_mobility_navigator x_mobility_navigator.launch.py
 If needed, generate the required ONNX file using the instructions [here](https://github.com/NVlabs/COMPASS?tab=readme-ov-file#model-export). The TRT file can be generated from the ONNX file using the instructions [here](https://github.com/NVlabs/X-MOBILITY/blob/main/ros2_deployment/README.md#step-5---build-the-tensorrt-engine).
 
 #### 8. RL on the Joey embodiment
-If needed, use my `joey.usd`, `run.py`, `robots.py` and `joey_env_cfg.py` as reference to setup your own RL on the Joey embodiment. 
+If needed, use my `joey.usd`, `run.py`, `robots.py` and `joey_env_cfg.py` files as reference to setup your own RL on the Joey embodiment. 
 
 Also remember to add "joey" to the list of supported_types in `compass/distillation/distillation.py`. There may have been other files that I needed to modify, but I cannot recall all of them. 
