@@ -21,7 +21,7 @@ python3 -m pip install wheel
 ```
 Install the TensorRT Python wheel
 ```
-python3 -m pip install --upgrade tensorrt
+python3 -m pip install --upgrade tensorrt-cu12
 ```
 Check if installation was successful
 ```
